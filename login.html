@@ -1,0 +1,73 @@
+<html>
+<head></head>
+<style>
+body{
+background-image:url("poster.jpg")
+}
+</style>
+
+<body><br><br><br><br><br><br>
+<center>
+<form action = "http://localhost:5000/login" method = "post">
+
+<table align="center" bgcolor="white">
+<tr>
+<td><h1>MOVIE<br> SUCCESS<br> PREDICTION</h1></td>
+</tr>
+<tr>
+<td>enter actor1</td>
+<td><input type="text" name="actor1"/></td>
+</tr>
+<tr>
+<td>enter actor2</td>
+<td><input type="text" name="actor2"/></td>
+</tr>
+<tr>
+<td>enter director</td>
+<td><input type="text" name="director"/></td>
+</tr>
+<tr>
+<td>enter budget(in millions)</td>
+<td><input type="number" name="budget"/></td>
+</tr>
+<tr>
+<td>select content-rating</td>
+<td><select name="cr">
+    <option value="">-</option>
+    <option value="g">G</option>
+    <option value="pg">PG</option>
+    <option value="pg13">PG-13</option>
+    <option value="r">R</option></td>
+</tr>
+<tr>
+<td>select genre</td>
+<td>Action<input type="checkbox" name="action"/>
+    Adventure<input type="checkbox" name="adventure"/>
+    Animation<input type="checkbox" name="animation"/>
+    Biography<input type="checkbox" name="biography"/><br>
+    Comedy<input type="checkbox" name="comedy"/>
+    Crime<input type="checkbox" name="crime"/>
+    Documentary<input type="checkbox" name="documentary"/>
+    Drama<input type="checkbox" name="drama"/><br>
+    Family<input type="checkbox" name="family"/>
+    Fantasy<input type="checkbox" name="fantasy"/>
+    History<input type="checkbox" name="history"/>
+    Horror<input type="checkbox" name="horror"/><br>
+    Musical<input type="checkbox" name="musical"/>
+    Mystery<input type="checkbox" name="mystery"/>
+    Romance<input type="checkbox" name="romance"/>
+    Science-fiction<input type="checkbox" name="scifi"/><br>
+    Sport<input type="checkbox" name="sport"/>
+    Thriller<input type="checkbox" name="thriller"/>
+    War<input type="checkbox" name="war"/>
+    Western<input type="checkbox" name="western"/>
+</td>
+<tr>
+<td><input type="submit" value="Verdict"/>
+<input type="reset" value="Clear"</td>
+</tr>
+</table> 
+</form>
+
+</body>
+</html>
